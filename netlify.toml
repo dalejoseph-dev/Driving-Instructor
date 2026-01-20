@@ -26,8 +26,4 @@
 [[headers]]
   for = "/*.css"
   [headers.values]
-<<<<<<< HEAD
     Cache-Control = "public, max-age=31536000, immutable"
-=======
-    Cache-Control = "public, max-age=31536000, immutable"
->>>>>>> b0e1f50ff6317dfd2caa21d8f42d3c04a4c64105

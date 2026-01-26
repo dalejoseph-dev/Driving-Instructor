@@ -169,5 +169,97 @@
     "website": "http://www.drivetorque.com.au",
     "notes": "Public listing shows mobile; other directories list website.",
     "source_url": "https://www.yellowpages.com.au/sa/paralowie/drive-torque-driver-training-12462596-listing.html"
+  },
+  {
+    "name": "ASM Driver Intuition",
+    "contact_name": "",
+    "areas": [
+      "Adelaide North",
+      "Adelaide Metro"
+    ],
+    "suburbs": [
+      "Mawson Lakes",
+      "Para Hills",
+      "Para Hills West",
+      "Salisbury East",
+      "Salisbury South",
+      "Modbury",
+      "Tea Tree Gully",
+      "Golden Grove"
+    ],
+    "phone": "(08) 8232 1111",
+    "email": "",
+    "website": "https://www.asmdriverintuition.com.au/",
+    "notes": "50 years experience; family-owned; male & female instructors; VORT, CBTA, overseas conversions; 5-star ANCAP vehicles; ADTA SA member.",
+    "source_url": "https://www.asmdriverintuition.com.au/"
+  },
+  {
+    "name": "Welcome Driving School",
+    "contact_name": "",
+    "areas": [
+      "Adelaide North"
+    ],
+    "suburbs": [
+      "Burton",
+      "Salisbury",
+      "Elizabeth",
+      "Mawson Lakes",
+      "Port Adelaide",
+      "Kilkenny",
+      "Prospect"
+    ],
+    "phone": "0430 205 450",
+    "email": "",
+    "website": "https://www.welcomedrivingschool.com.au/",
+    "notes": "15+ years experience; VORT authorized; CBT accredited; defensive driving specialist; male & female instructors; ADTA member.",
+    "source_url": "https://www.welcomedrivingschool.com.au/"
+  },
+  {
+    "name": "Victory Driving School",
+    "contact_name": "",
+    "areas": [
+      "Adelaide North",
+      "Adelaide North West"
+    ],
+    "suburbs": [
+      "Para Vista",
+      "Modbury",
+      "Golden Grove"
+    ],
+    "phone": "(08) 8265 5952",
+    "email": "",
+    "website": "https://www.victorydriving.com.au/",
+    "notes": "Auto & manual lessons; personalised instruction; refresher courses; over 50s courses; intensive courses available; high pass rates.",
+    "source_url": "https://www.victorydriving.com.au/"
+  },
+  {
+    "name": "Enjoy Driving Tuition",
+    "contact_name": "",
+    "areas": [
+      "Adelaide North"
+    ],
+    "suburbs": [
+      "Elizabeth",
+      "Salisbury",
+      "Banksia Park",
+      "Mawson Lakes",
+      "Golden Grove",
+      "Gawler",
+      "Ingle Farm",
+      "Modbury",
+      "Craigmore",
+      "Andrews Farm",
+      "Para Hills",
+      "Parafield Gardens",
+      "Paralowie",
+      "Blakeview",
+      "Angle Vale",
+      "Walkley Heights"
+    ],
+    "phone": "",
+    "email": "",
+    "website": "https://www.enjoydrivingtuition.com.au/",
+    "notes": "Welcomes all learners and overseas converting drivers; extensive northern suburbs coverage.",
+    "source_url": "https://www.enjoydrivingtuition.com.au/"
   }
 ]

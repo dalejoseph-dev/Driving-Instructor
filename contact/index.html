@@ -51,31 +51,19 @@
     <div class="grid cols-2">
       <div class="card">
         <h2>Quick form</h2>
-        <form method="post" action="#">
-          <div>
-            <label for="name">Your name</label>
-            <input id="name" name="name" autocomplete="name" required />
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required />
-          </div>
-          <div>
-            <label for="type">I’m contacting about</label>
-            <select id="type" name="type">
-              <option value="learner">Finding an instructor</option>
-              <option value="instructor">Listing my business</option>
-              <option value="review">Submitting a review</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="Suburb, auto/manual, availability, goals (test prep, nervous driver, etc.)"></textarea>
-          </div>
-          <button class="btn primary" type="submit">Submit (wire this up)</button>
-          <p class="small">This is a static demo form. When you deploy, connect it to Netlify Forms, Formspree, or a simple backend.</p>
-        </form>
+<form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <input type="tel" name="phone" placeholder="Your Phone">
+
+  <textarea name="message" placeholder="How can we help?"></textarea>
+
+  <button type="submit">Send Enquiry</button>
+</form>
       </div>
       <div class="card">
         <h2>Contact options</h2>

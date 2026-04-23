@@ -1,6 +1,6 @@
-# DrivingInstructorsAdelaide.com.au starter site (static)
+# DrivingInstructorsAdelaide.com.au
 
-This is a simple static HTML/CSS site you can deploy in minutes.
+A static HTML/CSS directory site for driving instructors in Adelaide and surrounding suburbs.
 
 ## What's inside
 - Home page: `/`
@@ -31,7 +31,5 @@ This is a simple static HTML/CSS site you can deploy in minutes.
 3. Point DNS (A + CNAME) as instructed by GitHub
 
 ## Next improvements
-- Replace placeholder instructors with real data
-- Connect the contact form using Netlify Forms or Formspree
 - Add suburb pages for high-priority areas (north/east/south/hills)
 - Add "sponsored" label logic once you sell placements

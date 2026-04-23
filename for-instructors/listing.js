@@ -1,9 +1,9 @@
-// Handle Netlify Forms AJAX submission
+// Handle Netlify Forms AJAX submission for listing request
 document.addEventListener('DOMContentLoaded', function() {
-  const form = document.getElementById('contactForm');
-  const submitBtn = document.getElementById('submitBtn');
-  const successMessage = document.getElementById('successMessage');
-  const errorMessage = document.getElementById('errorMessage');
+  const form = document.getElementById('listingForm');
+  const submitBtn = document.getElementById('listingSubmitBtn');
+  const successMessage = document.getElementById('listingSuccess');
+  const errorMessage = document.getElementById('listingError');
 
   if (!form) {
     return;
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     e.preventDefault();
 
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
+    submitBtn.textContent = 'Submitting...';
 
     successMessage.style.display = 'none';
     errorMessage.style.display = 'none';
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
       errorMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     } finally {
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Send Message';
+      submitBtn.textContent = 'Submit listing request';
     }
   });
 });

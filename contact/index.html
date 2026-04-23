@@ -51,7 +51,11 @@
     <div class="grid cols-2">
       <div class="card">
         <h2>Quick form</h2>
-        <form method="post" action="#">
+        <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
+          <p style="display:none">
+            <label>Don't fill this: <input name="bot-field" /></label>
+          </p>
           <div>
             <label for="name">Your name</label>
             <input id="name" name="name" autocomplete="name" required />
@@ -61,7 +65,7 @@
             <input id="email" name="email" type="email" autocomplete="email" required />
           </div>
           <div>
-            <label for="type">I’m contacting about</label>
+            <label for="type">I'm contacting about</label>
             <select id="type" name="type">
               <option value="learner">Finding an instructor</option>
               <option value="instructor">Listing my business</option>
@@ -73,8 +77,9 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="6" placeholder="Suburb, auto/manual, availability, goals (test prep, nervous driver, etc.)"></textarea>
           </div>
-          <button class="btn primary" type="submit">Submit (wire this up)</button>
-          <p class="small">This is a static demo form. When you deploy, connect it to Netlify Forms, Formspree, or a simple backend.</p>
+          <button id="submitBtn" class="btn primary" type="submit">Send Message</button>
+          <div id="successMessage" class="small" style="display:none;color:green;margin-top:1rem;">Thanks! Your message has been sent. We'll get back to you soon.</div>
+          <div id="errorMessage" class="small" style="display:none;color:red;margin-top:1rem;">Something went wrong. Please try again or email us directly.</div>
         </form>
       </div>
       <div class="card">

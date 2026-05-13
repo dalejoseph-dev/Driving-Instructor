@@ -12,151 +12,198 @@
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-    <header class="nav">
-        <div class="container">
-          <div class="nav-inner">
-            <a class="brand" href="index.html">
-              <div class="logo" aria-hidden="true"></div>
-              <span>DrivingInstructorsAdelaide</span>
-            </a>
 
-            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
+<header class="header">
+  <div class="container header-inner">
+    <a href="/" class="logo">Driving Instructors Adelaide</a>
 
-            <nav class="nav-links" aria-label="Primary">
-              <a href="areas/index.html">Areas</a>
-              <a href="instructor/index.html">Instructors</a>
-              <a href="for-instructors/index.html">For Instructors</a>
-              <a href="contact/index.html">Contact</a>
-            </nav>
-          </div>
-        </div>
-      </header>
+    <nav class="menu">
+      <a href="/">Home</a>
+      <a href="/areas/">Areas</a>
+      <a href="/contact/">Contact</a>
+      <a href="/for-instructors/">For Instructors</a>
+    </nav>
+  </div>
+</header>
 
-      <main>
-        <section class="hero">
-          <div class="container">
-            <div class="kicker">Adelaide & surrounding suburbs</div>
-            <h1>Find a driving instructor in Adelaide you can trust.</h1>
-            <p>Compare instructors by suburb, vehicle (auto/manual), and what learners say. Click through to contact an instructor directly — or ask us to help match you.</p>
-            <div class="ctas">
-              <a class="btn primary" href="instructor/index.html">Browse instructors</a>
-              <a class="btn" href="areas/index.html">Choose your suburb</a>
-              <a class="btn" href="contact/index.html">Get help choosing</a>
-            </div>
-            <div class="badges">
-              <a class="badge note" href="areas/north/index.html">Adelaide North</a>
-              <a class="badge note" href="areas/south/index.html">Adelaide South</a>
-              <a class="badge note" href="areas/east/index.html">Adelaide East</a>
-              <a class="badge note" href="areas/west/index.html">Adelaide West</a>
-              <a class="badge note" href="areas/cbd/index.html">Adelaide CBD</a>
-              <a class="badge note" href="areas/hills/index.html">Adelaide Hills</a>
-            </div>
-          </div>
-        </section>
 
-        <section class="section">
-          <div class="container">
-            <h2>Featured instructors</h2>
-            <div class="grid cols-3">
-              <div class="card">
-                <h3><a href="instructor/jane-smith/index.html">Jane Smith</a></h3>
-                <small>Auto & Manual · $85 / 60 min · Adelaide CBD, Norwood…</small>
-                <div class="badges">
-                  <a class="badge note" href="areas/north/index.html">Adelaide North</a>
-                  <a class="badge note" href="areas/south/index.html">Adelaide South</a>
-                  <a class="badge note" href="areas/east/index.html">Adelaide East</a>
-                  <a class="badge note" href="areas/west/index.html">Adelaide West</a>
-                  <a class="badge note" href="areas/cbd/index.html">Adelaide CBD</a>
-                  <a class="badge note" href="areas/hills/index.html">Adelaide Hills</a>
-                </div>
-                <div class="ctas">
-                  <a class="btn primary" href="instructor/jane-smith/index.html">Book direct</a>
-                  <a class="btn" href="contact/?instructor=jane-smith">Get help choosing</a>
-                </div>
-              </div>
+<section class="hero-section">
+  <div class="container hero-grid">
 
-              <div class="card">
-                <h3><a href="instructor/mark-lee/index.html">Mark Lee</a></h3>
-                <small>Automatic · $75 / 60 min · Salisbury, Modbury…</small>
-                <div class="badges">
-                  <a class="badge note" href="areas/north/index.html">Adelaide North</a>
-                  <a class="badge note" href="areas/south/index.html">Adelaide South</a>
-                  <a class="badge note" href="areas/east/index.html">Adelaide East</a>
-                  <a class="badge note" href="areas/west/index.html">Adelaide West</a>
-                  <a class="badge note" href="areas/cbd/index.html">Adelaide CBD</a>
-                  <a class="badge note" href="areas/hills/index.html">Adelaide Hills</a>
-                </div>
-                <div class="ctas">
-                  <a class="btn primary" href="instructor/mark-lee/index.html">Book direct</a>
-                  <a class="btn" href="contact/?instructor=mark-lee">Get help choosing</a>
-                </div>
-              </div>
+    <div class="hero-text">
+      <h1>Find a Trusted Driving Instructor in Adelaide & the Hills</h1>
 
-              <div class="card">
-                <h3><a href="instructor/sarah-jones/index.html">Sarah Jones</a></h3>
-                <small>Manual · $90 / 60 min · Marion, Morphett Vale…</small>
-                <div class="badges">
-                  <a class="badge note" href="areas/north/index.html">Adelaide North</a>
-                  <a class="badge note" href="areas/south/index.html">Adelaide South</a>
-                  <a class="badge note" href="areas/east/index.html">Adelaide East</a>
-                  <a class="badge note" href="areas/west/index.html">Adelaide West</a>
-                  <a class="badge note" href="areas/cbd/index.html">Adelaide CBD</a>
-                  <a class="badge note" href="areas/hills/index.html">Adelaide Hills</a>
-                </div>
-                <div class="ctas">
-                  <a class="btn primary" href="instructor/sarah-jones/index.html">Book direct</a>
-                  <a class="btn" href="contact/?instructor=sarah-jones">Get help choosing</a>
-                </div>
-              </div>
-            </div>
-            <p class="small">Tip: launch with a small list, keep it accurate, and expand suburb-by-suburb. Add "sponsored" labels where relevant.</p>
-          </div>
-        </section>
+      <p class="hero-sub">
+        Pass your driving test faster with qualified local instructors.
+        Compare options, book easily, and learn with confidence.
+      </p>
 
-        <section class="section">
-          <div class="container">
-            <div class="grid cols-2">
-              <div class="card">
-                <h3>How this site works</h3>
-                <p>We're an independent directory for learner drivers and parents. You can contact instructors directly, or use our form if you want help choosing based on suburb, car type, and availability.</p>
-                <div class="badges">
-                  <a class="badge note" href="areas/north/index.html">Adelaide North</a>
-                  <a class="badge note" href="areas/south/index.html">Adelaide South</a>
-                  <a class="badge note" href="areas/east/index.html">Adelaide East</a>
-                  <a class="badge note" href="areas/west/index.html">Adelaide West</a>
-                  <a class="badge note" href="areas/cbd/index.html">Adelaide CBD</a>
-                  <a class="badge note" href="areas/hills/index.html">Adelaide Hills</a>
-                </div>
-              </div>
+      <ul class="hero-points">
+        <li>✔ Manual & Automatic</li>
+        <li>✔ Flexible Times</li>
+        <li>✔ Verified Instructors</li>
+        <li>✔ Local Experts</li>
+      </ul>
 
-              <div class="card">
-                <h3>Are you an instructor?</h3>
-                <p>Get a free listing at launch. Add a premium profile or featured placement when you're ready.</p>
-                <div class="ctas">
-                  <a class="btn primary" href="for-instructors/index.html">See options</a>
-                  <a class="btn" href="contact/index.html">List my business</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
+      <a href="/contact/" class="btn-main">
+        Get Matched Today
+      </a>
+    </div>
 
-      <footer class="footer">
-        <div class="container">
-          <div class="notice">
-            <strong>Independent directory.</strong> DrivingInstructorsAdelaide.com.au is an independent comparison directory. Listings may be sponsored. Reviews are moderated.
-          </div>
-          <div class="small">
-            © 2026 DrivingInstructorsAdelaide.com.au · <a href="reviews-policy/index.html">Reviews policy</a> · <a href="privacy/index.html">Privacy</a>
-          </div>
-        </div>
-      </footer>
-      <script src="assets/scripts.js" defer></script>
-  <script src="scripts.js" defer></script>
+    <div class="hero-box">
+      <h3>Start Learning Today</h3>
+      <p>Tell us where you are and we’ll connect you with a local instructor.</p>
+
+      <a href="/contact/" class="btn-secondary">
+        Request a Lesson
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="benefits">
+  <div class="container">
+
+    <h2>Why Learners Choose Us</h2>
+
+    <div class="benefit-grid">
+
+      <div class="benefit">
+        <h3>Local Professionals</h3>
+        <p>
+          All instructors are licensed and experienced in SA road conditions.
+        </p>
+      </div>
+
+      <div class="benefit">
+        <h3>Simple Matching</h3>
+        <p>
+          We connect you with instructors in your suburb quickly.
+        </p>
+      </div>
+
+      <div class="benefit">
+        <h3>Flexible Scheduling</h3>
+        <p>
+          Lessons available weekdays, evenings, and weekends.
+        </p>
+      </div>
+
+      <div class="benefit">
+        <h3>Clear Pricing</h3>
+        <p>
+          No hidden fees. Compare options before you book.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="process">
+  <div class="container">
+
+    <h2>How It Works</h2>
+
+    <div class="steps">
+
+      <div class="step">
+        <span>1</span>
+        <p>Submit your enquiry</p>
+      </div>
+
+      <div class="step">
+        <span>2</span>
+        <p>Get matched locally</p>
+      </div>
+
+      <div class="step">
+        <span>3</span>
+        <p>Book your lessons</p>
+      </div>
+
+      <div class="step">
+        <span>4</span>
+        <p>Pass with confidence</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="testimonials">
+  <div class="container">
+
+    <h2>What Learners Say</h2>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial">
+        <p>
+          “Found a great instructor in Mount Barker and passed first go.”
+        </p>
+        <strong>– Sarah M.</strong>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          “Super easy and saved me heaps of time.”
+        </p>
+        <strong>– Josh P.</strong>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          “Professional, patient, and flexible lessons.”
+        </p>
+        <strong>– Daniel K.</strong>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="cta">
+  <div class="container">
+
+    <h2>Ready to Start Driving?</h2>
+
+    <p>Get matched with a trusted local instructor today.</p>
+
+    <a href="/contact/" class="btn-main">
+      Get Started
+    </a>
+
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container footer-inner">
+
+    <div>
+      <strong>Driving Instructors Adelaide</strong><br>
+      Serving Adelaide & Adelaide Hills
+    </div>
+
+    <div>
+      Email: support@drivinginstructorsadelaide.com.au
+    </div>
+
+    <div>
+      © 2026 All rights reserved
+    </div>
+
+  </div>
+</footer>
+
 </body>
 </html>
